@@ -8,9 +8,6 @@ edition = "2018"
 
 [dependencies]
 reqwest = { version = "0.10", default-features=false, features = ["json", "blocking", "rustls-tls"] }
-openssl = { version = "0.10.32", features = ["vendored"] }
-
-tokio = { version = "0.2", features = ["full"] }
 url = "2.1.1"
 serde = { version = "1.0", features = ["derive"] }
 jsonwebtoken = "7.1.0"
